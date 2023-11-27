@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  background-color: maroon;
+  padding: 8px;
+  text-decoration-color:black
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f9dec9;
+  padding: 25px;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: peachpuff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.navbar li a:hover{
+  background
+}
+.jumbotron {
+  background-color: gray;
+  padding: 25px;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: gray;
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
