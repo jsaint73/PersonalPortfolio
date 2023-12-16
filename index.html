@@ -1,50 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
+  <title>Home Page</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <img src="Logo2.png" height="50px"; width="50px"; vertical_align="middle">
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="Resume.html">Resume</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="Logo1.png" alt="Logo" width="100" height="100">
+      <span class="brand-name">James Saintilus</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Skills.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-      </ul>
     </div>
-  </div>
-</nav>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="Logo2.png" alt="jane-doe" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Hi, I'm James Saintilus, a student at the College of Our Lady of the Elms. I'm currently pursuing a degree
+        in Computer Science. I like to work out and challenge myself in various ways. My favorite series is JoJo's
+        Bizarre Adventure, Specifically Diamond is Unbreakable (also known as Part 4).
+      </p>
+    </div>
+  </section>
 
-  </div>
+  <!-- More About Section -->
+  <section class="more-about">
+    <div class="portfolio-box">
+      <img src="ElmsLogo.png" alt="School Picture">
+      <div class="school-info">
+        <h2>College of Our Lady of the Elms</h2>
+        <p>Location: Chicopee, MA</p>
+        <p>Expected Graduation Date: December 2023</p>
+        <p>Majors: Computer Science and Computer Information Technology and Security</p>
+        <p>Minor: Data Analytics</p>
+        <p>Dean's List of Spring 2023</p>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="STCCLogo.jpg" alt="School Picture">
+      <div class="school-info">
+        <h2>Springfield Technical Community College</h2>
+        <p>Location: Springfield, MA</p>
+        <p>Graduated in 2021</p>
+        <p>Majors: Computer System Engineering</p>
+      </div>
+    </div>
+  </section>
 
-  </div>
-</div><br><br>
-
-<footer class="container-fluid text-center">
-</footer>
+  <!-- Footer Section -->
+  <footer class="container-fluid text-center">
+    <div class="socials">
+      <a href="https://github.com/jsaint73" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+          loading="lazy" class="socicon" />
+      </a>
+      <a href="mailto:jamessaintilus@gmail.com" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Gmail"
+          loading="lazy" class="socicon" />
+      </a>
+      <a href="https://www.linkedin.com/in/james-saintilus/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin"
+          loading="lazy" class="socicon" />
+      </a>
+    </div>
+  </footer>
 
 </body>
+
 </html>
